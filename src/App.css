@@ -1,0 +1,155 @@
+/* 🛠️ General Button Styling */
+button {
+  padding: 12px 18px; /* Added padding for better clickability */
+  margin: 5px; /* Added margin for spacing */
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  transition: background 0.2s ease-in-out, transform 0.1s ease-in-out;
+}
+
+/* 🎨 Button Hover & Active */
+button:hover {
+  background: #ddd;
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+/* 🌞 Light Mode (Default) */
+body {
+  background-color: #ffffff;
+  color: #000;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* 🌙 Dark Mode */
+body.dark-mode {
+  background-color: #1e1e1e;
+  color: #ffffff;
+}
+
+/* 🎛️ Style for Dark Mode Toggle Button */
+.toggle-btn {
+  background: #444;
+  color: white;
+  padding: 10px 16px;
+  font-size: 14px;
+  margin: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+.toggle-btn:hover {
+  background: #666;
+}
+
+/* 🎹 Keyboard Container */
+.keyboard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 400px;
+  margin: 20px auto;
+  gap: 6px; /* Adjusts spacing between buttons */
+}
+
+/* 🎯 Keyboard Button Styling */
+.keyboard button {
+  width: 50px;
+  height: 50px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 6px;
+  margin: 5px; /* Increased margin for spacing */
+  padding: 10px; /* Added padding for better clickability */
+  background: #f8f9fa;
+  border: 2px solid #ccc;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+/* 🌟 Hover Effect */
+.keyboard button:hover {
+  background: #ddd;
+  transform: scale(1.05);
+}
+
+/* 🚀 Responsive Styles */
+@media (max-width: 600px) {
+  .keyboard {
+    max-width: 90%;
+  }
+
+  .keyboard button {
+    width: 40px;
+    height: 40px;
+    font-size: 16px;
+    margin: 4px;
+  }
+
+  .new-game-btn {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  .toggle-btn {
+    font-size: 12px;
+  }
+}
+
+/* 🔄 Reset/New Game Button */
+.new-game-btn {
+  background-color: #ff5722;
+  color: white;
+  padding: 14px 22px;
+  font-size: 18px;
+  margin-top: 20px;
+  border-radius: 6px; /* Added border-radius for rounded corners */
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.new-game-btn:hover {
+  background-color: #e64a19;
+}
+
+/* 🎛️ Toggle Buttons */
+.toggle-btn {
+  background: #333;
+  color: white;
+  padding: 10px 16px;
+  font-size: 14px;
+  margin: 8px;
+}
+
+.toggle-btn:hover {
+  background: #555;
+}
+
+/* 📱 Responsive Adjustments for Mobile */
+@media (max-width: 600px) {
+  button {
+    padding: 10px 14px;
+    font-size: 14px;
+  }
+
+  .keyboard button {
+    width: 40px;
+    height: 40px;
+    font-size: 16px;
+  }
+
+  .toggle-btn {
+    font-size: 12px;
+  }
+
+  .new-game-btn {
+    font-size: 16px;
+    padding: 12px 18px;
+  }
+}
+
