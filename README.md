@@ -79,5 +79,5 @@ A simple Wordle clone built with React. Guess a 5-letter word in six attempts, w
    Visit [https://wordle-riddle.vercel.app/] to view the production version.
 
 ## License:
-This project is licensed under the MIT License.
+This project is licensed under the Rajh Rajesh.
 ```
