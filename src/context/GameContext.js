@@ -9,7 +9,7 @@ export const GameProvider = ({ children }) => {
   const [attempts, setAttempts] = useState([]);
   const [guess, setGuess] = useState('');
   const [gameOver, setGameOver] = useState(false);
-  const [darkMode, setDarkMode] = useState(true);
+  const [darkMode, setDarkMode] = useState(false);
   const [soundOn, setSoundOn] = useState(true);
   const [scores, setScores] = useState([]);
 
