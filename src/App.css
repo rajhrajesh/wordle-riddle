@@ -1,7 +1,7 @@
 /* 🛠️ General Button Styling */
 button {
-  padding: 12px 18px; /* Added padding for better clickability */
-  margin: 5px; /* Added margin for spacing */
+  padding: 12px 18px;
+  margin: 5px;
   font-size: 16px;
   font-weight: bold;
   border-radius: 6px;
@@ -10,7 +10,7 @@ button {
   transition: background 0.2s ease-in-out, transform 0.1s ease-in-out;
 }
 
-/* 🎨 Button Hover & Active */
+/*Button Hover & Active */
 button:hover {
   background: #ddd;
 }
@@ -19,20 +19,20 @@ button:active {
   transform: scale(0.95);
 }
 
-/* 🌞 Light Mode (Default) */
+/*Light Mode (Default) */
 body {
   background-color: #ffffff;
   color: #000;
   transition: background-color 0.3s, color 0.3s;
 }
 
-/* 🌙 Dark Mode */
+/*Dark Mode */
 body.dark-mode {
   background-color: #1e1e1e;
   color: #ffffff;
 }
 
-/* 🎛️ Style for Dark Mode Toggle Button */
+/*Style for Dark Mode Toggle Button */
 .toggle-btn {
   background: #444;
   color: white;
@@ -47,7 +47,7 @@ body.dark-mode {
   background: #666;
 }
 
-/* 🎹 Keyboard Container */
+/*Keyboard Container */
 .keyboard {
   display: flex;
   flex-wrap: wrap;
@@ -57,7 +57,7 @@ body.dark-mode {
   gap: 6px; /* Adjusts spacing between buttons */
 }
 
-/* 🎯 Keyboard Button Styling */
+/*Keyboard Button Styling */
 .keyboard button {
   width: 50px;
   height: 50px;
@@ -72,13 +72,13 @@ body.dark-mode {
   cursor: pointer;
 }
 
-/* 🌟 Hover Effect */
+/*Hover Effect */
 .keyboard button:hover {
   background: #ddd;
   transform: scale(1.05);
 }
 
-/* 🚀 Responsive Styles */
+/*Responsive Styles */
 @media (max-width: 600px) {
   .keyboard {
     max-width: 90%;
@@ -101,7 +101,7 @@ body.dark-mode {
   }
 }
 
-/* 🔄 Reset/New Game Button */
+/*Reset/New Game Button */
 .new-game-btn {
   background-color: #ff5722;
   color: white;
@@ -117,7 +117,7 @@ body.dark-mode {
   background-color: #e64a19;
 }
 
-/* 🎛️ Toggle Buttons */
+/*Toggle Buttons */
 .toggle-btn {
   background: #333;
   color: white;
@@ -130,7 +130,7 @@ body.dark-mode {
   background: #555;
 }
 
-/* 📱 Responsive Adjustments for Mobile */
+/*Responsive Adjustments for Mobile */
 @media (max-width: 600px) {
   button {
     padding: 10px 14px;
