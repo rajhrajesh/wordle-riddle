@@ -15,8 +15,8 @@ const Keyboard = ({ checkWord }) => {
           {letter}
         </button>
       ))}
-      <button onClick={checkWord}>ENT</button>
-      <button onClick={() => setGuess('')}>CLR</button>
+      <button className='btn-ent' onClick={checkWord}>EN</button>
+      <button className='btn-clr' onClick={() => setGuess('')}>CL</button>
     </div>
   );
 };

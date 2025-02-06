@@ -3,7 +3,7 @@ import { useGame } from '../context/GameContext';
 
 const DarkModeToggle = () => {
   const { darkMode, setDarkMode } = useGame();
-
+  
   useEffect(() => {
     const savedMode = localStorage.getItem('darkMode');
     if (savedMode === 'true') setDarkMode(true);
